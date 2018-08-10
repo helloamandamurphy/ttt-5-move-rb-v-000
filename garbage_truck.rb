@@ -20,6 +20,7 @@
  
  update_array_at_with(board, 0, "X")
  
+<<<<<<< HEAD
  def display_board(board = " ")
   
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -36,3 +37,6 @@ puts "Where would you like to go?"
 input = gets.strip
 
 input_to_index(input)
+=======
+ 
+>>>>>>> cec2082fdfd17c176d1dbe9049c76da4badae1fc
